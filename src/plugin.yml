@@ -1,0 +1,8 @@
+main: "xyz.powerthecoder.GrapplingHook.Main"
+name: "GrapplingHook"
+author: "Leo Power"
+version: "1.0"
+api: "1.16"
+
+commands:
+  hook:
