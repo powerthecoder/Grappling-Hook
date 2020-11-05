@@ -79,7 +79,7 @@ public class Main extends JavaPlugin implements Listener {
 		
 		NamespacedKey key = new NamespacedKey(this, "grappling_hook");
 		ShapedRecipe recipe = new ShapedRecipe(key, hook);
-		recipe.shape("SSS", " I ", " W ");
+		recipe.shape("III", " S ", " W ");
 		recipe.setIngredient('S', Material.STRING);
 		recipe.setIngredient('I', Material.IRON_INGOT);
 		recipe.setIngredient('W', Material.STICK);
