@@ -114,6 +114,7 @@ public class Main extends JavaPlugin implements Listener {
 					// still on cooldown
 					long timeleft = (cooldowns.get(player.getName()) - System.currentTimeMillis() / 1000);
 					player.sendMessage(ChatColor.RED + "Hook ready in " + timeleft + " second(s)");
+					return;
 				}
 			}
 			cooldowns.put(player.getName(), System.currentTimeMillis() + (5 * 1000));
@@ -125,5 +126,22 @@ public class Main extends JavaPlugin implements Listener {
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
